@@ -1,0 +1,51 @@
+.form__email {
+  display: flex;
+  width: calc(100% - 698px);
+  margin: 0 auto 20px;
+}
+.form__accept {
+  width: calc(100% - 698px);
+  margin: auto;
+}
+.form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+.form__checkbox:checked + .form__pseudo-item_type_checkbox {
+  background-image: url(../../images/vector.svg);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+}
+.form__pseudo-item {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ffffff;
+}
+.form__checkbox-text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+.form__input {
+  border: 0.5px solid #FFFFFF;
+  box-sizing: border-box;
+  width: 592px;
+  background-color: transparent;
+}
+.form__submit {
+  width: 108px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 500;
+}/*# sourceMappingURL=form.css.map */
