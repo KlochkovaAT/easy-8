@@ -1,27 +1,18 @@
-# Проект: Путешествие по России
-
-### Обзор
-* Интро
-* Figma
-* Картинки
-
-**Интро**
-
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+# Проект: учебный проект EASY-8
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на макет в Figma](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings?node-id=6%3A1968)
 
 **Технологии**
 
 1. HTML
 1. CSS
 1. БЭМ
-1. Адаптивная верстка
+1. SCSS
+1. Адаптивная отзывчивая верстка
+1. JS
 
-**Ссылка на GitHub Pages**
+**Ссылка на GitHub Pull Request**
 
-https://klochkovaat.github.io/russian-travel/index.html
+https://github.com/KlochkovaAT/easy-8/pull/1/files
