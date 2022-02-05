@@ -17,11 +17,7 @@
           </button>
           <img src="./images/header_image_m.png" alt="Фото" class="header__image" />
           <div class="header__main-container">
-            <h1 class="header__title">
-              GIVENCHY
-              SPRING&nbsp;SUMMER&nbsp;2021
-              BY MATTHEW M. WILLIAMS
-            </h1>
+            <h1 class="header__title">GIVENCHY SPRING&nbsp;SUMMER&nbsp;2021 BY MATTHEW M. WILLIAMS</h1>
             <button class="header__subscribe-button" type="button">
               <span class="header__subscribe-text">Subscribe to collection&#8217;s news</span>
             </button>
@@ -29,7 +25,6 @@
         </div>
       </header>
       <main class="content">
-        <div class="header__empty-block"></div>
         <section class="about section" id="about">
           <div class="about__heading">
             <h2 class="about__title">ABOUT</h2>
@@ -49,8 +44,8 @@
             <img class="about__image" src="./images/about_red-woman.png" alt="Женщина в красном" />
           </div>
           <div class="about__news about__news_grid">
-            <img class="about__image_small" src="./images/about_men.png" alt="Мужчина" />
-            <p class="about__text_small">
+            <img class="about__image about__image_small" src="./images/about_men.png" alt="Мужчина" />
+            <p class="about__text-small">
               Matthew M. Williams reveals his vision with help from an all-star lineup of likeminded artists. The Creative
               Director called on close friends in his tight-knit community of artists. Kendall Jenner, Bella Hadid, Playboi Carti
               and the supermodels Anok Yai and Liam Powers were each invited to put their own stamp on key pieces, the better to
@@ -65,7 +60,7 @@
               </p>
               <p class="about__author">Matthew M. Williams.</p>
             </div>
-            <img class="about__image_big" src="./images/about_beg-woman.png" alt="Женщина в бежевом" />
+            <img class="about__image about__image_big" src="./images/about_beg-woman.png" alt="Женщина в бежевом" />
           </div>
         </section>
 
@@ -89,21 +84,24 @@
             <p class="footer__subscribe">
               Subscribe to the newsletterand be the first to know about new collection&#8217;s drop date and news
             </p>
-            <form class="form__email" id="subscribe">
-              <input class="form__input" type="email" name="email" id="text-email" placeholder="Eneter your email  here" />
-              <button class="form__submit" type="submit" form="subscribe">SUBMIT</button>
+            <form class="form">
+              <div class="form__email" id="subscribe">
+                <input class="form__input" type="email" name="email" id="text-email" placeholder="Eneter your email  here" />
+                <button class="form__submit" type="submit" form="subscribe">SUBMIT</button>
+              </div>
+              <div class="form__accept">
+                <label class="form__checkbox-text" for="accept">
+                  <span>
+                    <input class="form__checkbox" type="checkbox" name="accept" id="accept" value="accept" checked />
+                    <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                  </span>
+                  <span
+                    >I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy
+                    Policy</span
+                  >
+                </label>
+              </div>
             </form>
-            <div class="form__accept">
-              <label class="form__checkbox-text" for="accept">
-                <span>
-                  <input class="form__checkbox" type="checkbox" name="accept" id="accept" value="accept" checked />
-                  <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
-                </span>
-                <span
-                  >I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy
-                  Policy</span>
-              </label>
-            </div>
             <p class="footer__copyright">&copy;2021, Givenchy. Some rights reserved</p>
           </div>
         </div>

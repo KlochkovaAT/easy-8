@@ -161,7 +161,7 @@
     padding: 0px;
   }
 
-  &__text_small {
+  &__text-small {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -211,20 +211,10 @@
   }
 
   &__image_big {
-    width: 100%;
-    grid-row-start: 1;
-    grid-column-start: 4;
     grid-column-end: 9;
-    animation: 0.3s ease-out fade-in-right;
-    position: relative;
 
     @media screen and (max-width: $tablet-media) {
       grid-column: 3/7;
-    }
-
-    @media screen and (max-width: $mobile-media) {
-      grid-column-start: 1;
-      grid-column-end: 7;
     }
   }
 
@@ -240,8 +230,6 @@
     }
 
     @media screen and (max-width: $mobile-media) {
-      grid-column-start: 1;
-      grid-column-end: 7;
       width: 100%;
     }
   }

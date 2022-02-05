@@ -24,6 +24,7 @@ function getRandomLooks(max) {
     }
 
     imgs[itemToChangeIndex].classList.add("looks__photos-item_hidden");
+    srcs[itemToChangeIndex] = candidate;
     setTimeout(function() {
       imgs[itemToChangeIndex].src = candidate;
       imgs[itemToChangeIndex].classList.remove("looks__photos-item_hidden");
