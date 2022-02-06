@@ -1,0 +1,15 @@
+@font-face {
+  src: url(../fonts/prompt-v9-latin-500.woff2) format("woff2"),
+    url(../fonts/prompt-v9-latin-500.woff) format("woff"),
+    url(../fonts/prompt-v9-latin-500.ttf) format("opentype");
+  font-family: 'Prompt';
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(../fonts/prompt-v9-latin-regular.woff2) format("woff2"),
+    url(../fonts/prompt-v9-latin-regular.woff) format("woff"),
+    url(../fonts/prompt-v9-latin-regular.ttf) format("opentype");
+  font-family: 'Prompt';
+  font-weight: 400;
+}

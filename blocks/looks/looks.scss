@@ -1,0 +1,62 @@
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fade-out {
+  from {opacity: 1}
+  to {opacity: 0}
+}
+
+.looks {
+  &__title {
+    font-size: 48px;
+    line-height: 64px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0, 04em;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+
+    @media screen and (max-width: $mobile-media) {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+    gap: 0px;
+
+    @media screen and (max-width: $tablet-media) {
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    }
+
+    @media screen and (max-width: $hide-looks-media) {
+      grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
+    }
+
+    @media screen and (max-width: $mobile-media) {
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+  }
+
+  &__photos-item {
+    width: 100%;
+    animation: fade-in;
+    animation-duration: 1s;
+
+    &_hide-on-tablet {
+      @media screen  and (min-width: $mobile-media) and (max-width: $hide-looks-media) {
+        display: none;
+      }
+    }
+
+    &_hidden {
+      animation: fade-out;
+      animation-duration: 1s;
+    }
+  }
+}
